@@ -1,6 +1,9 @@
 char* StrCpy(char* src)
 {
-
-
+size_t len = strlen(src);
+char* destination  = (char*)malloc((length + 1) * sizeof(char))
+ strcpy(destination, src, len);
+    destination[len] = '\0';
+return destination;
 
 }
