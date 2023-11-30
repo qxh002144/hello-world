@@ -5,5 +5,7 @@ char* destination  = (char*)malloc((length + 1) * sizeof(char))
  strcpy(destination, src, len);
     destination[len] = '\0';
 return destination;
-
+/**
+远程编辑
+**/
 }
